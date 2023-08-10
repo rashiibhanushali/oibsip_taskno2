@@ -1,0 +1,90 @@
+body {
+    background-color: #ffdbe0;
+}
+#main {
+    margin: auto;
+    width: 512px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}  
+h1 {
+    margin: auto;
+    font-size: 2rem;
+    color: #a75bfc;
+    text-align: center;
+    animation-name: taylorswift;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-bottom: 1.5rem;
+}
+#img-heading {
+    font-size: 1rem;
+}
+#img-div {
+    background-color: #FF00FF;
+    font-size: 0.8rem;
+    color: #FFFFFF;
+    text-align: center;
+}
+#image {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: auto;
+} 
+@keyframes ready {
+    100% {
+      font-weight: bold;
+      color: #FF00FF;
+      background-color: #FFFFFF;
+      text-align: center;
+      opacity: 0.8;
+    }
+}
+#img-div:hover {
+    animation-name: ready;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+.intro {
+    color: #7536f8;
+    font-size: 1.2rem;
+}
+.achieve {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    color: #a75bfc;
+    
+}
+.achieve p {
+    color: #b98460;
+    margin-top: -1rem;
+}
+li:hover {
+    color: maroon;
+    cursor: default;
+}
+  
+#discography {
+    text-align: left;
+    margin-bottom: 2rem;
+}
+  
+#tours {
+    text-align: left;
+}
+  
+footer {
+    text-align: start;
+}
+footer p {
+    color: darkmagenta;
+}
+a {
+    color: red;
+}
+a:hover {
+    cursor: pointer;
+    font-weight: 700;
+}
